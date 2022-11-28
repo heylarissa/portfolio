@@ -53,17 +53,26 @@ h2 {
 
 }
 
+.dark-mode-button{
+    background-color: white;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    font-size: 40px;
+}
+
 .main-banner-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     text-align: center;
+    padding: 10% 0px 10% 0px;
 }
 
-.main-banner-container h2 {
-    padding: 15% 0px 10px 0px;
-}
 
 .navbar-container .links-container {
     display: flex;
@@ -125,5 +134,4 @@ ul .social-media {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding-bottom: 250px;
 }
