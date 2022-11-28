@@ -3,29 +3,30 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Portfolio: Larissa Hey</title>
+    <title>Larissa Hey</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
 </head>
 
 <nav>
-    <div>
-        <a href="#">Larissa Hey</a>
+    <div class="navbar-container">
+        <span class="logo">LARISSA HEY</span>
 
-        <ul>
-            <li>
+        <div class="links-container">
+            <div class="pages-container">
                 <a href="#about">about me</a>
-            </li>
-            <li>
                 <a href="#projects">projects</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/larissa-hey-dandrade-061b7116a/">linkedin</a>
-            </li>
-            <li>
-                <a href="https://github.com/heylarissa">github</a>
-            </li>
+            </div>
 
-        </ul>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/larissa-hey-dandrade-061b7116a/"><i
+                        class="fa-brands fa-linkedin" style="color:black; font-size:25px"></i></a>
+
+                <a href="https://github.com/heylarissa" ><i class="fa-brands fa-github" style="color:black; font-size:25px"></i></a>
+            </div>
+        </div>
     </div>
 </nav>
 
@@ -33,75 +34,76 @@
 
     <section>
         <!-- main banner -->
-        <div>
-            <h2>Hi, i'm Larissa</h2>
-            <p> Fullstack developer and designer</p>
-            <button>Resume</button>
+        <div class="main-banner-container">
+            <h2>DEVELOPER & DESIGNER</h2>
+            <span> dead serious about technology and innovation</span>
+
+            <div class="button-container">
+                <a href="./extended-cv.html"><button class="button-style">EXTENDED CV</button></a>
+                <a href="#contact"><button class="button-style">GET IN TOUCH</button></a>
+            </div>
             <!-- adicionar os ícones aqui e na navbar + incluir behance e instagram-->
-            <ul>
-                <li>
-                    <a href="https://www.linkedin.com/in/larissa-hey-dandrade-061b7116a/">linkedin</a>
-                </li>
-                <li>
-                    <a href="https://github.com/heylarissa">github</a>
-                </li>
+            <ul class="contact-icons">
+                <a href="https://www.linkedin.com/in/larissa-hey-dandrade-061b7116a/"><i
+                        class="fa-brands fa-linkedin" style="color:black; font-size:25px"></i></a>
+
+                <a href="https://github.com/heylarissa" style="color:black; font-size:25px"><i class="fa-brands fa-github"></i></a>
+
+                <a href="https://github.com/heylarissa" style="color:black; font-size:25px"><i class="fa-brands fa-instagram"></i></a>
+
             </ul>
         </div>
     </section>
 
-    <section id="projects">
-        <div>
-            <div>LDAP Authentication</div>
-            <div>Human resources system</div>
-            <div>To do webapp</div>
-            <div>Time tracker</div>
-            <div>Calendar</div>
-            <div>Live Data Visualization Web App</div>
-            <div>NFT Web Store</div>
-            <div>Image Gallery</div>
-            <div>Blog with Database Schema</div>
-            <div>Ecommerce</div>
-            <div>Langing page</div>
-            <div>Langing page</div>
-        </div>
+    <section id="projects" class="projects-container">
+        <div class="project-card">LDAP Authentication</div>
+        <div class="project-card">Human resources system</div>
+        <div class="project-card">To do list</div>
+        <div class="project-card">Time tracker</div>
+        <div class="project-card">Calendar</div>
+        <div class="project-card">Live Data Visualization Web App</div>
+        <div class="project-card">NFT Web Store</div>
+        <div class="project-card">Image Gallery</div>
+        <div class="project-card">Blog with Database Schema</div>
+        <div class="project-card">Ecommerce</div>
+        <div class="project-card">Langing page</div>
+        <div class="project-card">Langing page</div>
     </section>
 
     <section id="about">
-        <div>
-            <h1> about me </h1>
+        <h1> <span> about me</span> </h1>
 
-            <p>description letter here</p>
+        <p>description letter here</p>
 
-            <h1>technologies</h1>
-            <ul>
-                <li>Django</li>
-                <li>Django REST Framework</li>
-                <li>VueJS</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>MySQL</li>
-                <li>MariaDB</li>
-                <li>Git</li>
-                <li>Linux</li>
-            </ul>
+        <h1>technologies</h1>
+        <ul class="tech-container">
+            <li>Django</li>
+            <li>Django REST Framework</li>
+            <li>VueJS</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>MySQL</li>
+            <li>MariaDB</li>
+            <li>Git</li>
+            <li>Linux</li>
+        </ul>
 
-            <h1>languages</h1>
-            <ul>
-                <li>English</li>
-                <li>Franch</li>
-                <li>Portuguese</li>
-            </ul>
+        <h1>languages</h1>
+        <ul>
+            <li>English</li>
+            <li>Franch</li>
+            <li>Portuguese</li>
+        </ul>
 
-            <h2>work experience</h2>
-            <p>tam tam tam</p>
+        <h2>work experience</h2>
+        <p>tam tam tam</p>
 
-            <h2>education</h2>
-            <p>Bachelor of Computer Science, Federal University of Paraná - Curitiba, Paraná - Brazil</p>
-            <p>Technologist of Artificial Inteligence, PUCPR - Curitiba, Paraná - Brazil</p>
-        </div>
+        <h2>education</h2>
+        <p>Bachelor of Computer Science, Federal University of Paraná - Curitiba, Paraná - Brazil</p>
+        <p>Technologist of Artificial Inteligence, PUCPR - Curitiba, Paraná - Brazil</p>
     </section>
 
     <sectio id="contact">

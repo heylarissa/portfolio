@@ -1,12 +1,129 @@
-body{
-    background-color: #15133C;
-    color:#F7E2E2
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+
 }
 
 h1 {
-    color:#F7E2E2
+    color: black;
 }
 
 h2 {
-    color:#F7E2E2
+    color: black;
+}
+
+.projects-container {
+    display: flex;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.button-style {
+    background-color: white;
+    border: 1,5px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-style:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+
+}
+
+.main-banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-banner-container h2 {
+    padding: 15% 0px 10px 0px;
+}
+
+.navbar-container .links-container {
+    display: flex;
+    width: 50%;
+}
+
+.links-container .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.pages-container {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+.pages-container a {
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    width: 20%;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.pages-container a:hover {
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+
+ul .social-media {
+    display: flex;
+    padding-right: 500px;
+    gap: 15px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px
+}
+
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 250px;
 }
