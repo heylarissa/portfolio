@@ -24,7 +24,7 @@
                 <a href="https://www.linkedin.com/in/larissa-hey-dandrade-061b7116a/"><i
                         class="fa-brands fa-linkedin" style="color:black; font-size:25px"></i></a>
 
-                <a href="https://github.com/heylarissa" ><i class="fa-brands fa-github" style="color:black; font-size:25px"></i></a>
+                <a href="https://github.com/heylarissa"><i class="fa-brands fa-github" style="color:black; font-size:25px"></i></a>
             </div>
         </div>
     </div>
@@ -35,7 +35,7 @@
     <section>
         <!-- main banner -->
         <div class="main-banner-container">
-            <button class="dark-mode-button"><i class="fa-sharp fa-solid fa-sun"></i></button>
+            <button class="dark-mode-button" onclick="darkMode()"><i class="fa-sharp fa-solid fa-sun"></i></button>
             <h2>DEVELOPER & DESIGNER</h2>
             <span> dead serious about technology and innovation</span>
 
@@ -119,3 +119,10 @@
 <footer></footer>
 
 </html>
+
+<script>
+    function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>

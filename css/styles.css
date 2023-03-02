@@ -6,7 +6,6 @@ body {
     height: 100%;
     margin: 0;
     font-size: 16px;
-
 }
 
 h1 {
@@ -36,7 +35,7 @@ h2 {
 
 .button-style {
     background-color: white;
-    border: 1,5px solid black;
+    border: 1, 5px solid black;
     border-radius: 5px;
     color: black;
     padding: 15px 32px;
@@ -46,23 +45,25 @@ h2 {
     font: 'Montserrat'
 }
 
-.button-style:hover{
+.button-style:hover {
     background-color: black;
     color: white;
     transition: 0.5s ease-in-out;
     transform: scale(1.2);
-
 }
 
-.dark-mode-button{
+.dark-mode-button {
     background-color: white;
     color: black;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
     border: none;
     font-size: 40px;
+}
+
+.dark-mode-button:hover {
+    transform: scale(1.1);
 }
 
 .main-banner-container {
@@ -73,7 +74,6 @@ h2 {
     text-align: center;
     padding: 10% 0px 10% 0px;
 }
-
 
 .navbar-container .links-container {
     display: flex;
@@ -96,7 +96,6 @@ h2 {
     height: 100%;
     width: 100%;
     margin: 0;
-
 }
 
 .pages-container a {
@@ -130,9 +129,13 @@ ul .social-media {
     padding: 30px
 }
 
-
 .contact-icons {
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+
+.dark-mode {
+    filter: invert(1);
+    background-color: black;
 }
